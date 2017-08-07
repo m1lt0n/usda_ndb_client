@@ -22,7 +22,7 @@ setup(
     zip_safe=False,
     packages=find_packages(exclude=['tests']),
     install_requires=['requests'],
-    tests_require=['pytest', 'mock'],
+    tests_require=['pytest', 'mock', 'pytest-pep8'],
     author='Pantelis Vratsalis',
     author_email='pvratsalis@gmail.com'
 )
